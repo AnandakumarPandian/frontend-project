@@ -10,4 +10,8 @@ import { Router } from '@angular/router';
   })
   export class LoginComponent {
     title = 'frontend';
+
+    onLogin(){
+      console.log("Button clicked!");
+    }
   }
